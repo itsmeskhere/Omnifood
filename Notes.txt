@@ -1,0 +1,179 @@
+*****VS Code***** 
+
+
+***Extensions***
+
+Prettier - set it as Default Formatter
+Live Server
+Image preview
+Color Highlight
+Auto Rename Tag
+
+
+***Tricks***
+
+!+Tab - to generate HTML boilerplate code
+
+Directly write tag name in HTML for Emmet Auto Complete
+
+Type 'lorem' to generate dummy text
+
+Type 'loremX', where X is any number to set the number of words to be generated
+
+Type 'tagname*X', where X is any number to generate tags
+li*5
+input:button*3
+
+Type 'tagname#idname' to generate tag with id name
+h1#main-header          <h1 id="main-header"></h1>
+div#about               <div id="about"></div>
+#about                  <div id="about"></div>
+
+Type 'tagname.classname' to generate tag with class name
+h1.main-header          <h1  class="main-header"></h1>
+div.about               <div class="about"></div>
+.about                  <div class="about"></div>
+
+
+***Shortcuts***
+
+alt + z                                         Word Wrap
+ctrl + d                                        Multi-edit of selected text
+ctrl + ,                                        Open Settings
+ctrl + /                                        Comment toggle
+ctrl + Enter                                    Creates new line
+ctrl + left or right arrow                      To move cursor faster (word by word)
+ctrl + up or down arrow                         To scroll the screen
+ctrl + shift + alt + up or down key (NUM PAD)   To duplicate a line
+alt + up or down arrow                          To move the current line
+shift + alt + click                             Multiple cursors
+
+https://codingheroes.io/resources/
+
+***HTML***
+
+Set Doctype 
+<!DOCTYPE html>
+
+Set language of page
+<html lang="en">
+
+Set character set
+<meta charset="UTF-8" />
+
+HTML entities for Symbols
+
+Mention 'alt' attribute in img tag
+
+Use only one H1 per page (Good practice)
+
+HTML Validator to check HTML Code
+
+
+***CSS***
+
+Don't use Inline CSS, only use External CSS
+
+Default font-size is 16
+
+Only use Class to future proof the CSS
+
+Don't use !important selector
+
+Always specify all 4 states of links (link, visited, hover, active)
+
+ID & Classes can have same name
+
+Universal selector doesn't inherit but applies to all child elements
+
+Body selector inherits to all child elements
+
+No unit to mention when using 0 as value
+
+Use rem size units, instead of em units
+
+Reset default margins and paddings using Universal selector
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+Adjacent Margins don't add up, only larger of two is applied/visible
+
+Wrap all the contents of a page in a div container, then easily center it
+      .container {
+        /* width: 800px; */
+        /* Use max-width for responsive design */
+        max-width: 800px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0 auto;
+      }
+
+Change from inline box to block level box 
+      display: block;
+      display: inline;
+      display: inline-block;
+
+Height & Width doesn't apply to Inline elements
+
+Paddings & Margins only apply Horizontally (Left & Right) to Inline elements
+
+Pseudo-elements
+::after & ::before - content is mandatory
+      h1::after,
+      h1::before {
+            content: "";
+      }
+
+Floats
+      float: left;
+      float: right;
+
+Clearfix - add clearfix class to the parent element in HTML
+      .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+      }
+
+Box sizing - by default content-box
+      box-sizing: border-box;
+
+Colors resources
+      https://htmlcolorcodes.com/
+      https://www.color-hex.com/
+
+Image resources
+      Daily random image
+      https://source.unsplash.com/daily
+      https://source.unsplash.com/600x500/daily
+
+      Set custom size & keyword
+      https://source.unsplash.com/1600x900/?keyword
+
+      Faces for testimonial
+      uifaces.co
+
+FLEXBOX
+
+Main Axis - Horizontal (Default: Left to Right)
+Cross Axis - Vertical (Default: Top to Bottom)
+
+Use 'fr' units for proportional sizing of items.
+
+Use 'auto' in size to give only required space for content.
+
+To repeat same sizing multiple times while sizing layout - repeat(4, 1fr)
+
+type-scale.com for different font sizes.
+
+Open color - variety of colours
+
+RESPONSIVE DESIGN
+html {
+      font-size: 10px;
+      font-size: 62.5%;
+}
+
+Use % or rem units for size values

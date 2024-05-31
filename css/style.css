@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+
+  color: #555;
+
+  line-height: 1;
+}
+
+.section-hero-container {
+  display: grid;
+
+  max-width: 130rem;
+
+  margin: 0 auto;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
+}
