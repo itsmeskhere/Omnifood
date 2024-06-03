@@ -128,7 +128,7 @@ Medium: 11px
 /******************************/
 
 .section-hero {
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 4.8rem 0 8rem 0;
 
   background-color: #fdf2e9;
 }
@@ -161,11 +161,11 @@ Medium: 11px
   margin-top: 8rem;
 }
 
-.delivered-meals-imgs {
+.delivered-meals-customer-imgs {
   display: flex;
 }
 
-.delivered-meals-imgs img {
+.delivered-meals-customer-imgs img {
   height: 4.8rem;
   width: 4.8rem;
 
@@ -173,10 +173,16 @@ Medium: 11px
   border-radius: 50%;
 
   margin-right: -1.6rem;
+
+  transition: all 0.3s;
 }
 
-.delivered-meals-imgs img:last-child {
+.delivered-meals-customer-imgs img:last-child {
   margin-right: 0;
+}
+
+.delivered-meals-customer-imgs img:hover {
+  transform: scale(1.5) translateY(-20%);
 }
 
 .delivered-meals-text {
@@ -230,6 +236,13 @@ Medium: 11px
 
   filter: brightness(0);
   opacity: 50%;
+
+  transition: all 0.3s;
+}
+
+.featured-in-logo-img:hover {
+  filter: brightness(100%);
+  opacity: 100%;
 }
 
 /******************************/
@@ -299,4 +312,153 @@ Medium: 11px
 .how-it-works-step-img {
   height: auto;
   width: 35%;
+}
+
+/******************************/
+/*       MEALS SECTION        */
+/******************************/
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meals-card {
+  border-radius: 11px;
+
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+  overflow: hidden;
+
+  transition: all 0.4s;
+}
+
+.meals-card:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+
+  transform: translateY(-1.2rem);
+}
+
+.meals-card-img {
+  width: 100%;
+}
+
+.meals-card-details {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meals-card-tags {
+  display: flex;
+  gap: 0.4rem;
+
+  font-weight: 600;
+
+  margin-bottom: 1.2rem;
+}
+
+.meals-card-tag {
+  display: inline-block;
+
+  font-size: 1.2rem;
+
+  text-transform: uppercase;
+
+  padding: 0.4rem 0.8rem;
+
+  border-radius: 100px;
+
+  color: #333;
+}
+
+.meal-tag-vegetarian {
+  background-color: #51cf66;
+}
+
+.meal-tag-vegan {
+  background-color: #94d82d;
+}
+
+.meal-tag-paleo {
+  background-color: #ffd43b;
+}
+
+.meals-card-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  margin-bottom: 3.2rem;
+
+  color: #333;
+}
+
+.meals-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+.meals-card-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-size: 1.8rem;
+}
+
+.meals-card-list-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  color: #e67e22;
+}
+
+.meals-diet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  list-style: none;
+}
+
+.meals-diet-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-size: 1.8rem;
+}
+
+.meals-diet-list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+
+.meals-all-recipes {
+  font-size: 1.8rem;
+
+  text-align: center;
+}
+
+.meals-all-recipes-link:link,
+.meals-all-recipes-link:visited {
+  display: inline-block;
+
+  text-decoration: none;
+
+  border: solid 2px #eb984e;
+  border-radius: 100px;
+
+  padding: 1.2rem 2.4rem;
+
+  color: #e67e22;
+
+  transition: all 0.3s;
+}
+
+.meals-all-recipes-link:hover,
+.meals-all-recipes-link:active {
+  color: #fff;
+  background-color: #eb984e;
 }

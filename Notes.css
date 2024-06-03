@@ -604,3 +604,14 @@ opacity: 50%;
 .btn--outline:active {
   box-shadow: inset 0 0 0 3px #fff;
 }
+
+/* Same Color */
+.current-color {
+  color: red;
+  background-color: currentColor;
+}
+
+/* Transparent */
+.transparent {
+  border: solid 5px transparent;
+}
