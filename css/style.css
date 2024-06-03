@@ -199,6 +199,40 @@ Medium: 11px
 }
 
 /******************************/
+/*    FEATURED IN SECTION     */
+/******************************/
+
+.section-featured-in {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+
+  text-align: center;
+
+  margin-bottom: 2.4rem;
+
+  color: #999;
+}
+
+.featured-in-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-in-logo-img {
+  height: 3.2rem;
+
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/******************************/
 /*    HOW IT WORKS SECTION    */
 /******************************/
 

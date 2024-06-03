@@ -574,16 +574,19 @@ button:hover {
   transform: scale(1.5) translate(10px);
 }
 
-background-image
-  linear-gradient() to right, colour colour
+background-image: linear-gradient() to right, colour colour
 background-size
 background-position
 
 outline
 outline-offset
 
-filter
-opacity
+filter: grayscale()
+brightness()
+blur()
+hue-rotate()
+
+opacity: 50%;
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .example::-webkit-scrollbar {
