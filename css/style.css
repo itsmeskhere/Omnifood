@@ -60,12 +60,75 @@ Medium: 11px
 /*           HEADER           */
 /******************************/
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 9.6rem;
+
+  padding: 0 4.8rem;
+
+  background-color: #fdf2e9;
+}
+
+.logo-img {
+  height: 2.2rem;
+  width: auto;
+}
+
+/******************************/
+/*       NAVIGATION BAR       */
+/******************************/
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  color: #333;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.main-nav-btn:link,
+.main-nav-link.main-nav-btn:visited {
+  display: inline-block;
+
+  border-radius: 9px;
+
+  padding: 1.2rem 2.4rem;
+
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.main-nav-btn:hover,
+.main-nav-link.main-nav-btn:active {
+  background-color: #cf711f;
+}
+
 /******************************/
 /*        HERO SECTION        */
 /******************************/
 
 .section-hero {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 
   background-color: #fdf2e9;
 }
@@ -80,6 +143,7 @@ Medium: 11px
   max-width: 130rem;
 
   margin: 0 auto;
+  padding: 0 3.2rem;
 }
 
 .hero-description {
@@ -132,4 +196,73 @@ Medium: 11px
 
 .hero-img {
   width: 100%;
+}
+
+/******************************/
+/*    HOW IT WORKS SECTION    */
+/******************************/
+
+.section-how-it-works {
+  padding: 9.6rem 0;
+}
+
+.how-it-works-step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+
+  margin-bottom: 1.2rem;
+
+  color: #ddd;
+}
+
+.how-it-works-step-text {
+  font-size: 1.8rem;
+
+  line-height: 1.8;
+}
+
+.how-it-works-step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.how-it-works-step-img-box::before,
+.how-it-works-step-img-box::after {
+  content: "";
+  display: block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+}
+
+.how-it-works-step-img-box::before {
+  z-index: -2;
+
+  width: 60%;
+
+  padding-bottom: 60%;
+
+  background-color: #fdf2e9;
+}
+
+.how-it-works-step-img-box::after {
+  z-index: -1;
+
+  width: 45%;
+
+  padding-bottom: 45%;
+
+  background-color: #fae5d3;
+}
+
+.how-it-works-step-img {
+  height: auto;
+  width: 35%;
 }
