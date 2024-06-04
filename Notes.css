@@ -615,3 +615,8 @@ opacity: 50%;
 .transparent {
   border: solid 5px transparent;
 }
+
+/* Whitespace around side by side images issue */
+.image {
+  display: block;
+}
