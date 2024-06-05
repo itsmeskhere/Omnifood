@@ -714,7 +714,7 @@ Medium: 11px
 /******************************/
 
 .section-call-to-action {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem 0;
 }
 
 .container-call-to-action {
@@ -773,6 +773,8 @@ Medium: 11px
   font-weight: 500;
 
   margin-bottom: 1.2rem;
+
+  cursor: pointer;
 }
 
 .call-to-action-form input,
@@ -791,6 +793,8 @@ Medium: 11px
 
   color: inherit;
   background-color: #fdf2e9;
+
+  cursor: pointer;
 }
 
 .call-to-action-form input::placeholder {
@@ -815,14 +819,14 @@ Medium: 11px
   color: #fdf2e9;
   background-color: #45260a;
 
-  transition: all 0.3s;
+  transition: all 1s;
 
   cursor: pointer;
 }
 
 .call-to-action-form button:hover {
   color: #45260a;
-  background-color: #fff;
+  background-color: rgba(253, 242, 233, 0.5);
 }
 
 .call-to-action-img-box {
@@ -835,4 +839,117 @@ Medium: 11px
 
   background-size: cover;
   background-position: center;
+}
+
+/******************************/
+/*           FOOTER           */
+/******************************/
+
+.footer {
+  border-top: 1px solid #eee;
+
+  padding: 12.8rem 0;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-logo-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+
+  margin-bottom: 3.2rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 2.4rem;
+
+  list-style: none;
+}
+
+.footer-social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  color: #767676;
+
+  transition: all 0.3s;
+}
+
+.footer-social-icon:hover {
+  color: #555;
+}
+
+.footer-copyright {
+  align-self: end;
+  font-size: 1.4rem;
+
+  line-height: 1.6;
+
+  margin-top: auto;
+
+  color: #767676;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  margin-bottom: 4rem;
+}
+
+.footer-address {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.footer-address p:first-child {
+  margin-bottom: 2.4rem;
+}
+
+.footer-address-link:link,
+.footer-address-link:visited {
+  font-size: 1.6rem;
+
+  text-decoration: none;
+
+  color: #767676;
+
+  transition: all 0.3s;
+}
+
+.footer-address-link:hover,
+.footer-address-link:active {
+  color: #555;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  list-style: none;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  font-size: 1.6rem;
+
+  text-decoration: none;
+
+  color: #767676;
+
+  transition: all 0.3s;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  color: #555;
 }

@@ -29,28 +29,30 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo-img" />
+      <a href="#">
+        <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo-img" />
+      </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a href="#" class="main-nav-link">Link 1</a>
+            <a href="#" class="main-nav-link">How it works</a>
           </li>
 
           <li>
-            <a href="#" class="main-nav-link">Link 2</a>
+            <a href="#" class="main-nav-link">Meals</a>
           </li>
 
           <li>
-            <a href="#" class="main-nav-link">Link 3</a>
+            <a href="#" class="main-nav-link">Testimonials</a>
           </li>
 
           <li>
-            <a href="#" class="main-nav-link">Link 4</a>
+            <a href="#" class="main-nav-link">Pricing</a>
           </li>
 
           <li>
-            <a href="#" class="main-nav-link main-nav-btn">Link 5</a>
+            <a href="#" class="main-nav-link main-nav-btn">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -776,7 +778,9 @@
               <div>
                 <label for="select">Where did you hear about us?</label>
                 <select id="select" required>
-                  <option value="">Please choose one option</option>
+                  <option value="" selected disabled hidden>
+                    Please choose one option
+                  </option>
                   <option value="friends">Friends & Family</option>
                   <option value="youtube">YouTube</option>
                   <option value="podcast">Podcast</option>
@@ -797,5 +801,92 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container--center grid grid-footer">
+        <div class="footer-logo-box">
+          <a href="#" class="footer-logo">
+            <img
+              src="img/omnifood-logo.png"
+              alt="Omnifood logo"
+              class="logo-img"
+            />
+          </a>
+
+          <ul class="footer-social">
+            <li>
+              <a href="#" class="footer-social-link">
+                <ion-icon name="logo-instagram" class="footer-social-icon">
+                </ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-social-link">
+                <ion-icon name="logo-facebook" class="footer-social-icon">
+                </ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-social-link">
+                <ion-icon name="logo-twitter" class="footer-social-icon">
+                </ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <p class="footer-copyright">
+            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="footer-address-box">
+          <p class="footer-heading">Contact us</p>
+          <address class="footer-address">
+            <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p>
+              <a href="tel:+1-415-201-6370" class="footer-address-link">
+                415-201-6370
+              </a>
+            </p>
+            <p>
+              <a href="mailto:hello@omnifood.com" class="footer-address-link">
+                hello@omnifood.com
+              </a>
+            </p>
+          </address>
+        </div>
+
+        <nav class="footer-nav-box">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-nav-link">Create account</a></li>
+            <li><a href="#" class="footer-nav-link">Sign in</a></li>
+            <li><a href="#" class="footer-nav-link">iOS app</a></li>
+            <li><a href="#" class="footer-nav-link">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav-box">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-nav-link">About Omnifood</a></li>
+            <li><a href="#" class="footer-nav-link">For Business</a></li>
+            <li><a href="#" class="footer-nav-link">Cooking partners</a></li>
+            <li><a href="#" class="footer-nav-link">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav-box">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-nav-link">Recipe directory</a></li>
+            <li><a href="#" class="footer-nav-link">Help center</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
