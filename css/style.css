@@ -287,6 +287,8 @@ Medium: 11px
   transform: translate(-50%, -50%);
 
   border-radius: 50%;
+
+  transition: all 0.4s;
 }
 
 .how-it-works-step-img-box::before {
@@ -299,6 +301,12 @@ Medium: 11px
   background-color: #fdf2e9;
 }
 
+.how-it-works-step-img-box:hover::before {
+  width: 65%;
+
+  padding-bottom: 65%;
+}
+
 .how-it-works-step-img-box::after {
   z-index: -1;
 
@@ -307,6 +315,12 @@ Medium: 11px
   padding-bottom: 45%;
 
   background-color: #fae5d3;
+}
+
+.how-it-works-step-img-box:hover::after {
+  width: 50%;
+
+  padding-bottom: 50%;
 }
 
 .how-it-works-step-img {
