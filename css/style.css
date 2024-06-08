@@ -443,6 +443,16 @@ Medium: 11px
   font-size: 1.8rem;
 }
 
+.meals-diet-list-item span {
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.meals-diet-list-item span:hover {
+  font-weight: 500;
+}
+
 .meals-diet-list-icon {
   height: 3rem;
   width: 3rem;
