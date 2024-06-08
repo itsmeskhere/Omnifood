@@ -349,7 +349,7 @@ Medium: 11px
 .meals-card:hover {
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 
-  transform: translateY(-0.4rem);
+  transform: scale(1.01);
 }
 
 .meals-card-img {
@@ -507,8 +507,21 @@ Medium: 11px
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 4.8rem;
-  column-gap: 8rem;
+  gap: 3.2rem;
+}
+
+.testimonial-block {
+  border-radius: 9px;
+
+  padding: 2.4rem;
+
+  transition: all 0.75s;
+}
+
+.testimonial-block:hover {
+  transform: scale(1.05);
+
+  box-shadow: 0 0 1.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .testimonial-customer-img {
