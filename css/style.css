@@ -72,6 +72,12 @@ Medium: 11px
   background-color: #fdf2e9;
 }
 
+.logo-img-link {
+  padding: 0.8rem 1.6rem;
+
+  border-radius: 9px;
+}
+
 .logo-img {
   height: 2.2rem;
   width: auto;
