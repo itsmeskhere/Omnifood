@@ -706,11 +706,15 @@ Medium: 11px
 
   margin-bottom: 1.6rem;
 
-  transition: all 1s;
+  background: linear-gradient(to left, #fff 50%, #fdf2e9 50%);
+  background-position: right;
+  background-size: 200%;
+
+  transition: all 1s ease;
 }
 
 .feature-header:hover {
-  background-color: #fdf2e9;
+  background-position: left;
 }
 
 .feature-icon {
