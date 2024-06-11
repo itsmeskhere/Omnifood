@@ -84,7 +84,7 @@ Medium: 11px
 .main-nav-list {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 0.8rem;
 
   list-style: none;
 }
@@ -97,6 +97,10 @@ Medium: 11px
   text-decoration: none;
 
   color: #333;
+
+  padding: 0.8rem 1.6rem;
+
+  border-radius: 9px;
 
   transition: all 0.3s;
 }
