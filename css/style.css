@@ -247,6 +247,8 @@ Medium: 11px
   filter: brightness(0);
   opacity: 50%;
 
+  cursor: pointer;
+
   transition: all 0.3s;
 }
 
