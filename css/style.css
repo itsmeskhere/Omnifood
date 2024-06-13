@@ -872,9 +872,9 @@ Medium: 11px
   color: #fdf2e9;
   background-color: #45260a;
 
-  transition: all 1s;
-
   cursor: pointer;
+
+  transition: all 1s;
 }
 
 .call-to-action-form button:hover {
