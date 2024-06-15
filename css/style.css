@@ -955,9 +955,12 @@ Medium: 11px
 
 .footer-copyright {
   align-self: end;
+
   font-size: 1.4rem;
 
   line-height: 1.6;
+
+  text-align: center;
 
   margin-top: auto;
 
