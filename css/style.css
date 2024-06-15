@@ -932,6 +932,14 @@ Medium: 11px
   list-style: none;
 }
 
+.footer-social-link {
+  display: block;
+
+  border-radius: 9px;
+
+  padding: 0.8rem;
+}
+
 .footer-social-icon {
   height: 2.4rem;
   width: 2.4rem;
