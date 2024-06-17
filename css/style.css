@@ -920,7 +920,7 @@ Medium: 11px
 
   border-radius: 9px;
 
-  padding: 0 1.6rem;
+  padding: 0.8rem 1.6rem;
 
   margin-bottom: 3.2rem;
 }
@@ -959,7 +959,6 @@ Medium: 11px
   font-size: 1.4rem;
 
   line-height: 1.6;
-
   text-align: center;
 
   margin-top: auto;
@@ -971,17 +970,21 @@ Medium: 11px
   font-size: 1.8rem;
   font-weight: 500;
 
+  margin-top: 0.8rem;
   margin-bottom: 4rem;
 }
 
 .footer-address {
   font-style: normal;
   font-size: 1.6rem;
+
   line-height: 1.6;
+
+  color: #767676;
 }
 
 .footer-address p:first-child {
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .footer-address-link:link,
