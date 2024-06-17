@@ -1,121 +1,40 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
-
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Font weights
-Default: 400
-Medium: 500
-Semi-bold: 600
-Bold: 700
-
-- Line heights
-Default: 1
-Small: 1.05
-Medium: 1.2
-Paragraph default: 1.6
-
-- Letter spacing
--0.5px
-0.75px
-
---- 02 COLORS
-
-- Primary: #e67e22
-- Tints:
-#fdf2e9
-#fae5d3
-#eb984e
-
-- Shades: 
-#cf711f
-#45260a
-
-- Accents:
-- Greys
-
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed on #fdf2e9)
-#555
-#333
-
---- 05 SHADOWS
-
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-
---- 06 BORDER-RADIUS
-
-Default: 9px
-Medium: 11px
-
---- 07 WHITESPACE
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
-.container--l {
-  max-width: 130rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container--m {
-  max-width: 120rem;
-
-  padding: 0 3.2rem;
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(230, 125, 34, 0.5);
 }
 
-.container--center {
-  margin: 0 auto;
+html {
+  font-size: 62.5%;
 }
 
-.grid {
-  display: grid;
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
 }
 
-.grid--2-column-equal {
-  grid-template-columns: repeat(2, 1fr);
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-.grid--3-column-equal {
-  grid-template-columns: repeat(3, 1fr);
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+
+  line-height: 1;
+
+  color: #555;
 }
 
-.grid--4-column-equal {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--center-v {
-  align-items: center;
-}
-
-.grid-row-gap--s {
-  row-gap: 2.4rem;
-}
-
-.grid-row-gap--m {
-  row-gap: 4.8rem;
-}
-
-.grid-row-gap--xl {
-  row-gap: 9.6rem;
-}
-
-.grid-column-gap--s {
-  column-gap: 3.2rem;
-}
-
-.grid-column-gap--m {
-  column-gap: 4.8rem;
-}
-
-.grid-column-gap--l {
-  column-gap: 6.4rem;
-}
-
-.grid-column-gap--xl {
-  column-gap: 8rem;
+strong {
+  font-weight: 500;
 }
 
 .heading-primary,
@@ -152,7 +71,9 @@ Medium: 11px
   margin-bottom: 3.2rem;
 }
 
-.sub-heading {
+.subheading {
+  display: block;
+
   font-size: 1.6rem;
   font-weight: 500;
 
@@ -164,75 +85,65 @@ Medium: 11px
   color: #cf711f;
 }
 
-.link-button:link,
-.link-button:visited {
+.btn:link,
+.btn:visited {
   display: inline-block;
+
+  font-size: 2rem;
+  font-weight: 600;
+
+  text-decoration: none;
 
   padding: 1.6rem 3.2rem;
 
   border-radius: 9px;
 
-  font-size: 2rem;
-  font-weight: 600;
-  text-decoration: none;
+  color: #fff;
 
   transition: all 0.3s;
 }
 
-.link-button-primary:link,
-.link-button-primary:visited {
+.btn--full:link,
+.btn--full:visited {
   color: #fff;
   background-color: #e67e22;
 }
 
-.link-button-primary:hover,
-.link-button-primary:active {
+.btn--full:hover,
+.btn--full:active {
   background-color: #cf711f;
 }
 
-.link-button-secondary:link,
-.link-button-secondary:visited {
+.btn--outline:link,
+.btn--outline:visited {
   color: #555;
   background-color: #fff;
 }
 
-.link-button-secondary:hover,
-.link-button-secondary:active {
-  box-shadow: inset 0 0 0 3px #fff;
-
+.btn--outline:hover,
+.btn--outline:active {
   background-color: #fdf2e9;
+
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
   list-style: none;
 }
 
-.list-flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.list-flex-item {
+.list-item {
   display: flex;
   align-items: center;
-}
-
-.list-flex-gap--s {
   gap: 1.6rem;
+
+  font-size: 1.8rem;
 }
 
-.list-flex-gap--m {
-  gap: 2rem;
-}
-
-.list-icon--s {
-  height: 2.4rem;
-  width: 2.4rem;
-
-  color: #e67e22;
-}
-
-.list-icon--m {
+.list-icon {
   height: 3rem;
   width: 3rem;
 
@@ -247,14 +158,40 @@ Medium: 11px
   margin-bottom: 4.8rem !important;
 }
 
-.margin-bottom--xl {
+.margin-bottom--l {
   margin-bottom: 9.6rem !important;
-}
-
-.padding--none {
-  padding: 0;
 }
 
 .text-align--center {
   text-align: center;
+}
+
+.container--center {
+  max-width: 120rem;
+
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
 }

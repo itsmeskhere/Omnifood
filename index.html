@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Omnifood</title>
-
+    <!-- Font Style - Rubik -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +13,8 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <script
       type="module"
@@ -25,38 +24,35 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-  </head>
 
+    <title>Omnifood</title>
+  </head>
   <body>
     <header class="header">
-      <a href="#" class="header-logo">
-        <img
-          src="img/omnifood-logo.png"
-          alt="Omnifood logo"
-          class="header-logo-img"
-        />
+      <a href="#" class="logo-img-link">
+        <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo-img" />
       </a>
 
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-list-item">
-            <a href="#" class="header-nav-list-item-link"> How it works </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link">How it works</a>
           </li>
 
-          <li class="header-nav-list-item">
-            <a href="#" class="header-nav-list-item-link"> Meals </a>
+          <li>
+            <a href="#" class="main-nav-link">Meals</a>
           </li>
 
-          <li class="header-nav-list-item">
-            <a href="#" class="header-nav-list-item-link"> Testimonials </a>
+          <li>
+            <a href="#" class="main-nav-link">Testimonials</a>
           </li>
 
-          <li class="header-nav-list-item">
-            <a href="#" class="header-nav-list-item-link"> Pricing </a>
+          <li>
+            <a href="#" class="main-nav-link">Pricing</a>
           </li>
 
-          <li class="header-nav-list-item">
-            <a href="#" class="header-nav-list-item-button"> Try for free </a>
+          <li>
+            <a href="#" class="main-nav-link main-nav-btn">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -64,9 +60,9 @@
 
     <main>
       <section class="section-hero">
-        <div class="hero-container container--l container--center">
-          <div class="hero-content-box">
-            <h1 class="hero-heading heading-primary">
+        <div class="section-hero-container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
               A healthy meal delivered to your door, every single day
             </h1>
 
@@ -76,100 +72,84 @@
               nutritional needs.
             </p>
 
-            <a
-              href="#"
-              class="hero-link-button link-button link-button-primary margin-right--s"
+            <a href="#" class="btn btn--full margin-right--s"
               >Start eating well</a
             >
 
-            <a
-              href="#"
-              class="hero-link-button link-button link-button-secondary"
-              >Learn more...</a
-            >
+            <a href="#" class="btn btn--outline">Learn more...</a>
 
-            <div class="hero-delivered-meals">
-              <div class="hero-delivered-meals-customer-images">
+            <div class="delivered-meals">
+              <div class="delivered-meals-customer-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
-
                 <img src="img/customers/customer-2.jpg" alt="Customer photo" />
-
                 <img src="img/customers/customer-3.jpg" alt="Customer photo" />
-
                 <img src="img/customers/customer-4.jpg" alt="Customer photo" />
-
                 <img src="img/customers/customer-5.jpg" alt="Customer photo" />
-
                 <img src="img/customers/customer-6.jpg" alt="Customer photo" />
               </div>
-
-              <p class="hero-delivered-meals-text">
-                <strong>250,000+</strong> meals delivered last year!
+              <p class="delivered-meals-text">
+                <strong>250,000+</strong>meals delivered last year!
               </p>
             </div>
           </div>
-          <div class="hero-image-box">
+
+          <div class="hero-img-box">
             <img
               src="img/hero.png"
               alt="Woman enjoying food, meals in storage container and food bowls on a table"
-              class="hero-image"
+              class="hero-img"
             />
           </div>
         </div>
       </section>
 
       <section class="section-featured-in">
-        <div class="featured-in-container container--m container--center">
-          <h2 class="featured-in-heading">As featured in</h2>
-
+        <div class="container--center">
+          <h2 class="heading-featured-in">As featured in</h2>
           <div class="featured-in-logos">
             <img
               src="img/logos/techcrunch.png"
               alt="Tech Crunch logo"
-              class="featured-in-logo-image"
+              class="featured-in-logo-img"
             />
             <img
               src="img/logos/business-insider.png"
               alt="Business Insider logo"
-              class="featured-in-logo-image"
+              class="featured-in-logo-img"
             />
             <img
               src="img/logos/the-new-york-times.png"
               alt="The New York Times logo"
-              class="featured-in-logo-image"
+              class="featured-in-logo-img"
             />
             <img
               src="img/logos/forbes.png"
               alt="Frobes logo"
-              class="featured-in-logo-image"
+              class="featured-in-logo-img"
             />
             <img
               src="img/logos/usa-today.png"
               alt="USA Today logo"
-              class="featured-in-logo-image"
+              class="featured-in-logo-img"
             />
           </div>
         </div>
       </section>
 
       <section class="section-how-it-works">
-        <div
-          class="how-it-works-heading-container container--m container--center"
-        >
-          <p class="how-it-works-sub-heading sub-heading">How it works</p>
+        <div class="container--center">
+          <span class="subheading"> How it works </span>
 
-          <h2 class="how-it-works-heading heading-secondary">
+          <h2 class="heading-secondary">
             Your daily dose of health in 3 simple steps
           </h2>
         </div>
 
-        <div
-          class="how-it-works-container container--m container--center grid grid--2-column-equal grid--center-v grid-row-gap--xl grid-column-gap--l"
-        >
+        <div class="container--center grid grid--2-cols grid--center-v">
           <div class="how-it-works-step-text-box">
             <p class="how-it-works-step-number">01</p>
 
-            <h3 class="how-it-works-step-heading heading-tertiary">
+            <h3 class="heading-tertiary">
               Tell us what you like (and what not)
             </h3>
 
@@ -180,29 +160,25 @@
               matter what diet you follow!
             </p>
           </div>
-
-          <div class="how-it-works-step-image-box">
+          <div class="how-it-works-step-img-box">
             <img
               src="img/app/app-screen-1.png"
               alt="App preferences selection screen"
-              class="how-it-works-step-image"
+              class="how-it-works-step-img"
             />
           </div>
 
-          <div class="how-it-works-step-image-box">
+          <div class="how-it-works-step-img-box">
             <img
               src="img/app/app-screen-2.png"
               alt="Meal plan approving screen"
-              class="how-it-works-step-image"
+              class="how-it-works-step-img"
             />
           </div>
-
           <div class="how-it-works-step-text-box">
             <p class="how-it-works-step-number">02</p>
 
-            <h3 class="how-it-works-step-heading heading-tertiary">
-              Approve your weekly meal plan
-            </h3>
+            <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
 
             <p class="how-it-works-step-text">
               Once per week, approve the meal plan generated for you by Omnifood
@@ -214,9 +190,7 @@
           <div class="how-it-works-step-text-box">
             <p class="how-it-works-step-number">03</p>
 
-            <h3 class="how-it-works-step-heading heading-tertiary">
-              Receive meals at convenient time
-            </h3>
+            <h3 class="heading-tertiary">Receive meals at convenient time</h3>
 
             <p class="how-it-works-step-text">
               Best chefs in town will cook your selected meal every day, and we
@@ -224,70 +198,65 @@
               change delivery schedule and address daily!
             </p>
           </div>
-
-          <div class="how-it-works-step-image-box">
+          <div class="how-it-works-step-img-box">
             <img
               src="img/app/app-screen-3.png"
               alt="Meal delivery screen"
-              class="how-it-works-step-image"
+              class="how-it-works-step-img"
             />
           </div>
         </div>
       </section>
 
       <section class="section-meals">
-        <div
-          class="meals-heading-container container--m container--center text-align--center"
-        >
-          <p class="meals-sub-heading sub-heading">Meals</p>
+        <div class="container--center text-align--center">
+          <span class="subheading"> Meals </span>
 
-          <h2 class="meals-heading heading-secondary">
+          <h2 class="heading-secondary">
             Omnifood AI chooses from 5,000+ recipes
           </h2>
         </div>
 
-        <div
-          class="meals-container container--m container--center margin-bottom--m grid grid--3-column-equal grid-column-gap--l"
-        >
-          <div class="meal-card">
+        <div class="container--center grid grid--3-cols margin-bottom--m">
+          <div class="meals-card">
             <img
               src="img/meals/meal-1.jpg"
               alt="Japanese Gyozas"
-              class="meal-card-image"
+              class="meals-card-img"
             />
 
-            <div class="meal-card-text-box">
-              <div class="meal-card-tags">
-                <span class="meal-card-tag meal-tag-vegetarian">
-                  Vegetarian
-                </span>
+            <div class="meals-card-details">
+              <div class="meals-card-tags">
+                <span class="meals-card-tag meal-tag-vegetarian"
+                  >Vegetarian</span
+                >
               </div>
 
-              <div class="meal-card-title">Japanese Gyozas</div>
+              <p class="meals-card-title">Japanese Gyozas</p>
 
-              <ul class="meal-card-list list list-flex-column list-flex-gap--m">
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+              <ul class="meals-card-list">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="flame-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span><strong>650</strong> calories</span>
                 </li>
 
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="restaurant-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span>NutriScore &reg; <strong>74</strong></span>
                 </li>
 
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="star-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span><strong>4.9</strong> rating (537)</span>
@@ -296,45 +265,44 @@
             </div>
           </div>
 
-          <div class="meal-card">
+          <div class="meals-card">
             <img
               src="img/meals/meal-2.jpg"
               alt="Avocado Salad"
-              class="meal-card-image"
+              class="meals-card-img"
             />
 
-            <div class="meal-card-text-box">
-              <div class="meal-card-tags">
-                <span class="meal-card-tag meal-tag-vegan"> Vegan </span>
-
-                <span class="meal-card-tag meal-tag-paleo"> Paleo </span>
+            <div class="meals-card-details">
+              <div class="meals-card-tags">
+                <span class="meals-card-tag meal-tag-vegan">Vegan</span>
+                <span class="meals-card-tag meal-tag-paleo">Paleo</span>
               </div>
 
-              <div class="meal-card-title">Avocado Salad</div>
+              <p class="meals-card-title">Avocado Salad</p>
 
-              <ul class="meal-card-list list list-flex-column list-flex-gap--m">
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+              <ul class="meals-card-list">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="flame-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span><strong>400</strong> calories</span>
                 </li>
 
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="restaurant-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span>NutriScore &reg; <strong>92</strong></span>
                 </li>
 
-                <li class="meal-card-list-item list-flex-item list-flex-gap--s">
+                <li class="meals-card-list-item">
                   <ion-icon
                     name="star-outline"
-                    class="meal-card-list-icon list-icon--s"
+                    class="meals-card-list-icon"
                   ></ion-icon>
 
                   <span><strong>4.8</strong> rating (441)</span>
@@ -342,81 +310,78 @@
               </ul>
             </div>
           </div>
-
           <div class="meals-diet">
-            <h3 class="meals-diet-heading heading-tertiary">
-              Works with any diet
-            </h3>
+            <h3 class="heading-tertiary">Works with any diet</h3>
 
-            <ul class="meals-diet-list list list-flex-column list-flex-gap--s">
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+            <ul class="meals-diet-list list">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Vegetarian</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Vegan</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon
                 ><span>Pescatarian</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Gluten-free</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Lactose-free</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Keto</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Paleo</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Low FODMAP</span>
               </li>
 
-              <li class="meals-diet-list-item list-flex-item list-flex-gap--s">
+              <li class="meals-diet-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="meals-diet-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
                 <span>Kid-friendly</span>
               </li>
@@ -424,29 +389,23 @@
           </div>
         </div>
 
-        <div class="meals-all-recipes-container container--m container--center">
-          <a href="#" class="meals-all-recipes-link"> Checkout all recipes </a>
+        <div class="container--center meals-all-recipes">
+          <a href="#" class="meals-all-recipes-link">Checkout all recipes</a>
         </div>
       </section>
 
       <section class="section-testimonials">
         <div class="testimonials-container">
-          <p class="testimonials-sub-heading sub-heading">Testimonials</p>
+          <span class="subheading"> Testimonials </span>
 
-          <h2 class="testimonials-heading heading-secondary">
-            Once you try it, you can't go back
-          </h2>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
 
-          <!-- <div
-            class="testimonials grid grid--2-column-equal grid-row-gap--m grid-column-gap--xl"
-            
-          > -->
-          <div class="testimonials grid grid--2-column-equal">
-            <figure class="testimonial-box">
+          <div class="testimonials">
+            <figure class="testimonial-block">
               <img
                 src="img/customers/dave.jpg"
                 alt="Photo of Customer Dave Bryson"
-                class="testimonial-customer-image"
+                class="testimonial-customer-img"
               />
 
               <blockquote class="testimonial-text">
@@ -457,11 +416,11 @@
               <p class="testimonial-customer-name">&mdash; Dave Bryson</p>
             </figure>
 
-            <figure class="testimonial-box">
+            <figure class="testimonial-block">
               <img
                 src="img/customers/ben.jpg"
                 alt="Photo of Customer Ben Hadley"
-                class="testimonial-customer-image"
+                class="testimonial-customer-img"
               />
 
               <blockquote class="testimonial-text">
@@ -472,11 +431,11 @@
               <p class="testimonial-customer-name">&mdash; Ben Hadley</p>
             </figure>
 
-            <figure class="testimonial-box">
+            <figure class="testimonial-block">
               <img
                 src="img/customers/steve.jpg"
                 alt="Photo of Customer Steve Miller"
-                class="testimonial-customer-image"
+                class="testimonial-customer-img"
               />
 
               <blockquote class="testimonial-text">
@@ -487,11 +446,11 @@
               <p class="testimonial-customer-name">&mdash; Steve Miller</p>
             </figure>
 
-            <figure class="testimonial-box">
+            <figure class="testimonial-block">
               <img
                 src="img/customers/hannah.jpg"
                 alt="Photo of Customer Hannah Smith"
-                class="testimonial-customer-image"
+                class="testimonial-customer-img"
               />
 
               <blockquote class="testimonial-text">
@@ -504,12 +463,12 @@
           </div>
         </div>
 
-        <div class="food-gallery-container grid grid--3-column-equal">
+        <div class="food-gallery">
           <figure class="food-gallery-item">
             <img
               src="img/gallery/gallery-1.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -517,7 +476,7 @@
             <img
               src="img/gallery/gallery-2.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -525,7 +484,7 @@
             <img
               src="img/gallery/gallery-3.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -533,7 +492,7 @@
             <img
               src="img/gallery/gallery-4.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -541,7 +500,7 @@
             <img
               src="img/gallery/gallery-5.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -549,7 +508,7 @@
             <img
               src="img/gallery/gallery-6.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -557,7 +516,7 @@
             <img
               src="img/gallery/gallery-7.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -565,7 +524,7 @@
             <img
               src="img/gallery/gallery-8.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -573,7 +532,7 @@
             <img
               src="img/gallery/gallery-9.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -581,7 +540,7 @@
             <img
               src="img/gallery/gallery-10.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -589,7 +548,7 @@
             <img
               src="img/gallery/gallery-11.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
 
@@ -597,180 +556,143 @@
             <img
               src="img/gallery/gallery-12.jpg"
               alt="Photo of beautifully arranged food"
-              class="food-gallery-item-image"
+              class="food-gallery-item-img"
             />
           </figure>
         </div>
       </section>
 
       <section class="section-pricing">
-        <div
-          class="pricing-heading-container container--m container--center text-align--center"
-        >
-          <p class="pricing-sub-heading sub-heading">Pricing</p>
+        <div class="container--center text-align--center">
+          <span class="subheading"> Pricing </span>
 
-          <h2 class="pricing-heading heading-secondary">
+          <h2 class="heading-secondary">
             Eating well without breaking the bank
           </h2>
         </div>
 
-        <div
-          class="pricing-plan-container container--m container--center grid grid--2-column-equal grid-column-gap--l margin-bottom--m"
-        >
-          <div class="pricing-plan-card pricing-plan-card--starter">
+        <div class="container--center grid grid--2-cols margin-bottom--m">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="pricing-plan-header">
               <p class="pricing-plan-name">Starter</p>
 
               <p class="pricing-plan-price"><span>$</span>399</p>
 
-              <p class="pricing-plan-duration">per month.</p>
-
+              <p class="pricing-plan-price-duration">per month.</p>
               <p class="pricing-plan-per-meal-rate">
                 That's just $13 per meal!
               </p>
             </header>
 
-            <ul
-              class="pricing-plan-features-list list list-flex-column list-flex-gap--s"
-            >
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+            <ul class="pricing-plan-list list">
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>1 meal per day</span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Order from 11 AM to 9 PM</span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Delivery is free</span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="close-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Get access to latest recipes</span>
               </li>
             </ul>
 
             <div class="pricing-plan-sign-up">
-              <a href="#" class="link-button link-button-primary">
-                Start eating well
-              </a>
+              <a href="#" class="btn btn--full margin-right--s"
+                >Start eating well</a
+              >
             </div>
           </div>
 
-          <div class="pricing-plan-card pricing-plan-card--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="pricing-plan-header">
               <p class="pricing-plan-name">Complete</p>
 
               <p class="pricing-plan-price"><span>$</span>649</p>
 
-              <p class="pricing-plan-duration">per month.</p>
-
+              <p class="pricing-plan-price-duration">per month.</p>
               <p class="pricing-plan-per-meal-rate">
                 That's just $11 per meal!
               </p>
             </header>
 
-            <ul
-              class="pricing-plan-features-list list list-flex-column list-flex-gap--s"
-            >
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+            <ul class="pricing-plan-list list">
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span><strong>2 meals</strong> per day</span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Order <strong>24/7</strong></span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
                   name="checkmark-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Delivery is free</span>
               </li>
 
-              <li
-                class="pricing-plan-features-list-item list-flex-item list-flex-gap--s"
-              >
+              <li class="pricing-plan-list-item list-item">
                 <ion-icon
-                  name="close-outline"
-                  class="pricing-plan-features-list-icon list-icon--m"
+                  name="checkmark-outline"
+                  class="meals-diet-list-icon list-icon"
                 ></ion-icon>
-
                 <span>Get access to latest recipes</span>
               </li>
             </ul>
 
             <div class="pricing-plan-sign-up">
-              <a href="#" class="link-button link-button-primary">
-                Start eating well
-              </a>
+              <a href="#" class="btn btn--full margin-right--s"
+                >Start eating well</a
+              >
             </div>
           </div>
         </div>
 
-        <div
-          class="pricing-plan-details-container container--m container--center margin-bottom--xl"
-        >
+        <div class="container--center margin-bottom--l">
           <p class="pricing-plan-details">
             Prices include all applicable taxes. You can cancel at any time.
           </p>
         </div>
 
-        <div
-          class="features-container container--m container--center grid grid--4-column-equal grid-column-gap--l"
-        >
+        <div class="container--center grid grid--4-cols">
           <div class="feature-box">
             <div class="feature-header">
               <ion-icon name="infinite-outline" class="feature-icon"></ion-icon>
 
-              <div class="feature-title">Never cook again</div>
+              <p class="feature-title">Never cook again</p>
             </div>
+
             <p class="feature-text">
               Our subscriptions cover 365 days per year, even including major
               holidays.
@@ -822,23 +744,17 @@
       </section>
 
       <section class="section-call-to-action">
-        <div
-          class="container-call-to-action container--m container--center padding--none grid"
-        >
+        <div class="container-call-to-action">
           <div class="call-to-action-text-box">
-            <h2 class="call-to-action-heading heading-secondary">
-              Get your first meal for free
-            </h2>
+            <h2 class="heading-secondary">Get your first meal for free</h2>
 
             <p class="call-to-action-text">
               Healthy, tasty and hassle-free meals are waiting for you. Start
               eating well today. You can cancel or pause anytime & the first
               meal is on us!
             </p>
-            <form
-              action="#"
-              class="call-to-action-form grid grid--2-column-equal grid-column-gap--s grid-row-gap--s"
-            >
+
+            <form action="#" class="call-to-action-form">
               <div>
                 <label for="name">Name</label>
                 <input
@@ -861,7 +777,7 @@
 
               <div>
                 <label for="select">Where did you hear about us?</label>
-                <select id="select">
+                <select id="select" required>
                   <option value="" selected disabled hidden>
                     Please choose one option
                   </option>
@@ -873,12 +789,12 @@
                 </select>
               </div>
 
-              <button class="sign-up-button">Sign up now</button>
+              <button class="btn">Sign up now</button>
             </form>
           </div>
 
           <div
-            class="call-to-action-image-box"
+            class="call-to-action-img-box"
             role="img"
             aria-label="Woman enjoying food"
           ></div>
@@ -886,16 +802,14 @@
       </section>
     </main>
 
-    <footer class="section-footer">
-      <div
-        class="container--m container--center grid footer-grid grid-row-gap--xl grid-column-gap--l"
-      >
+    <footer class="footer">
+      <div class="container--center grid grid-footer">
         <div class="footer-logo-box">
           <a href="#" class="footer-logo">
             <img
               src="img/omnifood-logo.png"
               alt="Omnifood logo"
-              class="footer-logo-image"
+              class="logo-img"
             />
           </a>
 
@@ -929,10 +843,8 @@
 
         <div class="footer-address-box">
           <p class="footer-heading">Contact us</p>
-
           <address class="footer-address">
             <p>623 Harrison St., 2nd Floor<br />San Francisco<br />CA 94107</p>
-
             <p>
               <a href="tel:+1-415-201-6370" class="footer-address-link">
                 415-201-6370
@@ -948,59 +860,29 @@
         <nav class="footer-nav-box">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
-            <li>
-              <a href="#" class="footer-nav-link">Create account</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Sign in</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">iOS app</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Android app</a>
-            </li>
+            <li><a href="#" class="footer-nav-link">Create account</a></li>
+            <li><a href="#" class="footer-nav-link">Sign in</a></li>
+            <li><a href="#" class="footer-nav-link">iOS app</a></li>
+            <li><a href="#" class="footer-nav-link">Android app</a></li>
           </ul>
         </nav>
 
         <nav class="footer-nav-box">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li>
-              <a href="#" class="footer-nav-link">About Omnifood</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">For Business</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Cooking partners</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Careers</a>
-            </li>
+            <li><a href="#" class="footer-nav-link">About Omnifood</a></li>
+            <li><a href="#" class="footer-nav-link">For Business</a></li>
+            <li><a href="#" class="footer-nav-link">Cooking partners</a></li>
+            <li><a href="#" class="footer-nav-link">Careers</a></li>
           </ul>
         </nav>
 
         <nav class="footer-nav-box">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
-            <li>
-              <a href="#" class="footer-nav-link">Recipe directory</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Help center</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-nav-link">Privacy & terms</a>
-            </li>
+            <li><a href="#" class="footer-nav-link">Recipe directory</a></li>
+            <li><a href="#" class="footer-nav-link">Help center</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy & terms</a></li>
           </ul>
         </nav>
       </div>
