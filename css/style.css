@@ -79,7 +79,7 @@ Medium: 11px
 }
 
 .logo-img {
-  height: 2.2rem;
+  height: 2.4rem;
   width: auto;
 }
 
@@ -89,7 +89,9 @@ Medium: 11px
 
 .main-nav-list {
   display: flex;
+
   align-items: center;
+
   gap: 0.8rem;
 
   list-style: none;
@@ -146,9 +148,10 @@ Medium: 11px
 .section-hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
 
   align-items: center;
+
+  gap: 9.6rem;
 
   max-width: 130rem;
 
@@ -158,6 +161,7 @@ Medium: 11px
 
 .hero-description {
   font-size: 2rem;
+
   line-height: 1.6;
 
   margin-bottom: 4.8rem;
@@ -165,7 +169,9 @@ Medium: 11px
 
 .delivered-meals {
   display: flex;
+
   align-items: center;
+
   gap: 1.6rem;
 
   margin-top: 8rem;
@@ -197,8 +203,11 @@ Medium: 11px
 
 .delivered-meals-text {
   display: flex;
+
   align-items: center;
+
   gap: 0.5rem;
+
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -226,10 +235,10 @@ Medium: 11px
   font-size: 1.4rem;
   font-weight: 500;
 
-  text-transform: uppercase;
   letter-spacing: 0.75px;
 
   text-align: center;
+  text-transform: uppercase;
 
   margin-bottom: 2.4rem;
 
@@ -238,6 +247,7 @@ Medium: 11px
 
 .featured-in-logos {
   display: flex;
+
   justify-content: space-around;
 }
 
@@ -282,6 +292,7 @@ Medium: 11px
 
 .how-it-works-step-img-box {
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -291,6 +302,7 @@ Medium: 11px
 .how-it-works-step-img-box::before,
 .how-it-works-step-img-box::after {
   content: "";
+
   display: block;
 
   position: absolute;
@@ -374,6 +386,7 @@ Medium: 11px
 
 .meals-card-tags {
   display: flex;
+
   gap: 0.4rem;
 
   font-weight: 600;
@@ -426,7 +439,9 @@ Medium: 11px
 
 .meals-card-list-item {
   display: flex;
+
   align-items: center;
+
   gap: 1.6rem;
 
   font-size: 1.8rem;
@@ -441,7 +456,9 @@ Medium: 11px
 
 .meals-diet-list {
   display: flex;
+
   flex-direction: column;
+
   gap: 1.6rem;
 
   list-style: none;
@@ -449,7 +466,9 @@ Medium: 11px
 
 .meals-diet-list-item {
   display: flex;
+
   align-items: center;
+
   gap: 1.6rem;
 
   font-size: 1.8rem;
@@ -468,6 +487,7 @@ Medium: 11px
 .meals-diet-list-icon {
   height: 3rem;
   width: 3rem;
+
   color: #e67e22;
 }
 
@@ -505,6 +525,7 @@ Medium: 11px
 
 .section-testimonials {
   display: grid;
+
   grid-template-columns: 55fr 45fr;
 
   align-items: center;
@@ -518,7 +539,9 @@ Medium: 11px
 
 .testimonials {
   display: grid;
+
   grid-template-columns: 1fr 1fr;
+
   gap: 3.2rem;
 }
 
@@ -561,7 +584,9 @@ Medium: 11px
 
 .food-gallery {
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
+
   gap: 1.6rem;
 
   padding: 1.6rem;
@@ -658,6 +683,7 @@ Medium: 11px
   font-weight: 600;
 
   letter-spacing: 0.75;
+
   text-transform: uppercase;
 
   margin-bottom: 3.2rem;
@@ -711,7 +737,9 @@ Medium: 11px
 
 .feature-header {
   display: flex;
+
   align-items: center;
+
   gap: 0.8rem;
 
   border-radius: 100rem;
@@ -725,7 +753,7 @@ Medium: 11px
   transition: all 1s ease;
 }
 
-.feature-header:hover {
+.feature-box:hover .feature-header {
   background-position: left;
 }
 
@@ -743,7 +771,7 @@ Medium: 11px
   transition: all 1s;
 }
 
-.feature-icon:hover {
+.feature-box:hover .feature-icon {
   transform: rotate(360deg);
 }
 
@@ -772,6 +800,7 @@ Medium: 11px
 
 .container-call-to-action {
   display: grid;
+
   grid-template-columns: 2fr 1fr;
 
   max-width: 120rem;
@@ -809,9 +838,11 @@ Medium: 11px
 
 .call-to-action-form {
   display: grid;
+
   grid-template-columns: 1fr 1fr;
-  column-gap: 3.2rem;
+
   row-gap: 2.4rem;
+  column-gap: 3.2rem;
 }
 
 .call-to-action-form *:focus {
@@ -864,10 +895,10 @@ Medium: 11px
 
   text-decoration: none;
 
-  padding: 1.2rem;
-
   border: none;
   border-radius: 9px;
+
+  padding: 1.2rem;
 
   color: #fdf2e9;
   background-color: #45260a;
@@ -910,6 +941,7 @@ Medium: 11px
 
 .footer-logo-box {
   display: flex;
+
   flex-direction: column;
 
   align-items: center;
@@ -927,6 +959,7 @@ Medium: 11px
 
 .footer-social {
   display: flex;
+
   gap: 2.4rem;
 
   list-style: none;
@@ -959,6 +992,7 @@ Medium: 11px
   font-size: 1.4rem;
 
   line-height: 1.6;
+
   text-align: center;
 
   margin-top: auto;
@@ -1005,7 +1039,9 @@ Medium: 11px
 
 .footer-nav {
   display: flex;
+
   flex-direction: column;
+
   gap: 2.4rem;
 
   list-style: none;
