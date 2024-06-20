@@ -9,7 +9,7 @@
   box-shadow: 0 0 0 0.4rem rgba(230, 125, 34, 0.5);
 }
 
-html {
+:root {
   font-size: 62.5%;
 }
 
