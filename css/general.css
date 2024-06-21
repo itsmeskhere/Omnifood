@@ -13,6 +13,10 @@
   font-size: 62.5%;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 html::-webkit-scrollbar {
   display: none;
@@ -31,6 +35,8 @@ body {
   line-height: 1;
 
   color: #555;
+
+  overflow-x: hidden;
 }
 
 strong {
