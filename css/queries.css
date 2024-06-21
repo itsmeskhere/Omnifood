@@ -1,0 +1,9 @@
+@media (max-width: 60em) {
+  .main-nav {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+}
